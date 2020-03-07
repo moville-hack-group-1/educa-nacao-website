@@ -1,0 +1,22 @@
+{
+  "name": "movile-hack-group",
+  "version": "1.0.0",
+  "description": "Hackathon desenvolvido por pessoas negras, promovido pelo grupo MOVILE afim de viabilizar a \"Educação/Desenvolvimento de jovens em situação de vulnerabilidade usando tecnologia.\"",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moville-hack-group-1/website.git"
+  },
+  "author": "Isabela Silva <“eu.silvaisabela@gmail.com”>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moville-hack-group-1/website/issues"
+  },
+  "homepage": "https://github.com/moville-hack-group-1/website#readme"
+}
