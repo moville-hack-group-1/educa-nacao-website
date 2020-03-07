@@ -1,2 +1,10 @@
-@import url("./variable/variable.css");
+
+@import url("./base/base.css");
+@import url("./navbar/navbar.css");
+@import url("./variable/colors.css");
+@import url("./variable/fonts.css");
+@import url("./header/header.css");
+@import url("./footer/footer.css");
+@import url("./button/button.css");
+
 
