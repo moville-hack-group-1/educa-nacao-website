@@ -1,3 +1,93 @@
-body{
-    background-color: var(--mountain-meadow);
+.header {
+  height: 100vh;
+}
+
+.header__content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.header__description {
+  width: 50%;
+  height: auto;
+}
+
+.header__text {
+  color: var(--mountain-meadow);
+  font-size: var(--main-font-size);
+}
+
+.header__app-store {
+  display: flex;
+  align-items: center;
+}
+
+.app-store {
+  width: 150px;
+  height: auto;
+}
+
+.header__screen-app {
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.screen-app {
+  width: 400px;
+  height: auto;
+}
+
+.impact-phrase {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text-impact {
+  font-size: 45px;
+  font-weight: bold;
+  width: 50%;
+  text-align: center;
+}
+
+.author-impact {
+  font-size: var(--main-font-size);
+  color: var(--mountain-meadow);
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.company__values {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.company__content {
+  height: auto;
+  width: 25%;
+  text-align: center;
+}
+
+.company__title {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.company__text {
+  font-size: var(--main-font-size);
+  color: var(--mountain-meadow);
 }
