@@ -7,7 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "./node_modules/.bin/gh-pages -d dist/ -d dist/"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/moville-hack-group-1/website/issues"
   },
-  "homepage": "https://github.com/moville-hack-group-1/website#readme"
+  "homepage": "https://github.com/moville-hack-group-1/website#readme",
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
 }
