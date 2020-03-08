@@ -1,0 +1,25 @@
+.navbar {
+  width: 100%;
+  height: 90px;
+}
+
+.navbar__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__menu{
+    align-self: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+
+.menu__list{
+    margin-right: 70px;
+}
+
